@@ -12,4 +12,10 @@ pub enum ComponentError {
     IoError(#[from] std::io::Error),
 }
 
+impl From<anyhow::Error> for ComponentError {
+    fn from(err: anyhow::Error) -> Self {
+        ComponentError::RuntimeError(err.to_string())
+    }
+}
+
 pub type Result<T> = std::result::Result<T, ComponentError>;

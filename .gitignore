@@ -6,3 +6,4 @@ dist/
 *.iso
 .venv/
 node_modules/
+target/
