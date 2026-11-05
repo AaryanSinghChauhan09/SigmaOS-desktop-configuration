@@ -1,0 +1,9 @@
+[component]
+name = "SigmaOS-desktop-configuration"
+description = "SigmaOS subsystem component for desktop-configuration"
+version = "0.1.0"
+tier = 4
+
+[capabilities]
+contract_version = "1.0.0"
+principles = ["DRY", "KISS", "SOLID", "Arrange-Act-Assert", "Pristine-Sources"]
