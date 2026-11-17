@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-desktop-configuration"
-description = "SigmaOS subsystem component for desktop-configuration"
+description = "Desktop flavour configuration (browser, shell, WM)"
 version = "0.1.0"
 tier = 4
 
